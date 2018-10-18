@@ -1,0 +1,185 @@
+#header {
+  position: relative;
+
+  overflow-y: hidden;
+
+  width: 100%;
+}
+
+#header-title {
+  width: 160px;
+  z-index: 2 !important;
+  top: 30%;
+  left: 5%;
+
+  color: #131620;
+}
+
+#header-title .name-first {
+  font-size: 1.8rem;
+}
+
+#header-title h1 {
+  font-size: 1.3rem;
+
+  margin: 0;
+}
+
+#header-title .description-first {
+  font-size: 1.2rem;
+}
+
+#header-title h2 {
+  font-size: 1.0rem;
+
+  margin: 0;
+}
+
+#arrow-container {
+  opacity: 0.8;
+  text-align: center;
+}
+
+#arrow {
+  margin-left: -10%;
+  margin-top: 5%;
+  width: 35%;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.layer {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  display: block;
+
+  max-width: 100%;
+}
+
+#layer-0 {
+  position: relative;
+}
+
+#layer-7 {
+  z-index: 3 !important;
+}
+
+@media (min-width: 576px) {
+  #header-title {
+    width: 260px;
+  }
+
+  #header-title .name-first {
+    font-size: 2.4rem;
+  }
+
+  #header-title h1 {
+    font-size: 1.9rem;
+
+    margin: 0;
+  }
+
+  #header-title .description-first {
+    font-size: 1.8rem;
+  }
+
+  #header-title h2 {
+    font-size: 1.6rem;
+
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #header-title {
+    width: 340px;
+  }
+
+  #header-title .name-first {
+    font-size: 2.9rem;
+  }
+
+  #header-title h1 {
+    font-size: 2.4rem;
+
+    margin: 0;
+  }
+
+  #header-title .description-first {
+    font-size: 2.3rem;
+  }
+
+  #header-title h2 {
+    font-size: 2.2rem;
+
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #header-title {
+    width: 450px;
+  }
+
+  #header-title .name-first {
+    font-size: 3.7rem;
+  }
+
+  #header-title h1 {
+    font-size: 3.2rem;
+
+    margin: 0;
+  }
+
+  #header-title .description-first {
+    font-size: 3.1rem;
+  }
+
+  #header-title h2 {
+    font-size: 2.9rem;
+
+    margin: 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  #header-title {
+    width: 515px;
+  }
+
+  #header-title .name-first {
+    font-size: 4.8rem;
+  }
+
+  #header-title h1 {
+    font-size: 3.6rem;
+
+    margin: 0;
+  }
+
+  #header-title .description-first {
+    font-size: 3.5rem;
+  }
+
+  #header-title h2 {
+    font-size: 3.3rem;
+
+    margin: 0;
+  }
+}
