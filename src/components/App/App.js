@@ -22,6 +22,27 @@ class App extends Component {
         window.scrollTo(0, 0);
       }, 1000);
     }, false);
+    const about = document.querySelector('#about');
+    const layer8 = document.querySelector('#layer-8');
+    layer8.addEventListener('load', () => {
+      window.addEventListener('resize', () => {
+        if (about.getBoundingClientRect().bottom <= 0) {
+          layer8.style.display = 'none';
+        } else {
+          layer8.style.display = 'block';
+        }
+      }, false);  
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 0) {
+          layer8.style.marginTop = window.scrollY * 1.2 + 'px';
+          if (about.getBoundingClientRect().bottom <= 0) {
+            layer8.style.display = 'none';
+          } else {
+            layer8.style.display = 'block';
+          }
+        }
+      }, false);  
+    }, false);
   }
 
   render() {
@@ -32,6 +53,7 @@ class App extends Component {
           <div className="loader" id="loader-b" />
         </div>
         <Header />
+        <img id="layer-8" className="layer" src="images/layer-8.png" alt="First layer of about" />
         <Portfolio />
       </div>
     );

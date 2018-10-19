@@ -1,0 +1,14 @@
+#projects {
+  position: relative;
+  z-index: 4;
+
+  padding: 25px;
+
+  text-align: center;
+
+  background-color: #131620;
+}
+
+.project {
+  
+}

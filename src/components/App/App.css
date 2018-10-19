@@ -1,8 +1,9 @@
 html, body {
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: 'Arial Black', Gadget, sans-serif;
   font-size: 100%;
 
-  height: 2000px;
+  height: 4000px;
+  margin: 0;
 
   background-color: #131620;
 }
@@ -17,7 +18,8 @@ html, body {
 
   width: 100%;
   height: 100vh;
-  background-color: #0a0e22;
+
+  background-color: #131620;
 }
 
 .loader-hidden {
@@ -41,8 +43,8 @@ html, body {
 
   margin: 0 auto;
 
-  border: 3px solid #905b6d;
-  border-top: 3px solid #000000;
+  border: 4px solid #905b6d;
+  border-top: 4px solid #131620;
   border-radius: 50%;
 }
 
@@ -62,4 +64,8 @@ html, body {
   margin-left: -20px;
 
   animation: spin 3s linear infinite;
+}
+
+#layer-8 {
+  z-index: 1 !important;
 }

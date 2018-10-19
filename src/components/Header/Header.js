@@ -3,15 +3,6 @@ import React, { Component } from 'react';
 import './Header.css';
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      layer0Height: 0,
-      layer0Ratio: 0
-    };
-  }
-
   componentDidMount() {
     const header = document.querySelector('#header');
     const layer0 = document.querySelector('#layer-0');
@@ -27,27 +18,23 @@ class Header extends Component {
       let layer0Height = layer0.offsetHeight; 
       let layer0Ratio = layer0Height / window.innerWidth;
       window.addEventListener('resize', () => {
-        if (window.scrollY <= layer0Height) {
-          window.scrollTo(0, 0);
-        }
+        header.style.height = Math.round(layer0Ratio * window.innerWidth - window.scrollY) + 'px';
+        header.style.maxHeight = layer0.offsetHeight + 'px';
         layer0Height = layer0.offsetHeight;
-        header.style.height = layer0Ratio * window.innerWidth - window.scrollY + 'px';
       }, false);
       window.addEventListener('scroll', () => {
         if (window.scrollY >= 0) {
           if (layer0Height / 2 >= window.scrollY) {
-            header.style.height = layer0Height - window.scrollY;
+            header.style.height = layer0Height - window.scrollY + 'px';
           } else {
-            header.style.height = layer0Height / 2;
+            header.style.height = layer0Height / 2 + 'px';
           }
-          header.style.height = layer0Height - window.scrollY + 'px';
           layer1.style.top = window.scrollY * 0.4 + 'px';
           layer2.style.top = window.scrollY * 0.3 + 'px';
           layer3.style.top = -window.scrollY * 0 + 'px';
           layer4.style.top = -window.scrollY * 0.3 + 'px';
           layer5.style.top = -window.scrollY * 0.5 + 'px';
           layer6.style.top = -window.scrollY * 0.9 + 'px';
-          layer7.style.top = -window.scrollY + 'px';
         }
       }, false);  
     }, false);
@@ -75,7 +62,7 @@ class Header extends Component {
           <img id="layer-4" className="layer" src="images/layer-4.png" alt="Fourth layer of header" />
           <img id="layer-5" className="layer" src="images/layer-5.png" alt="Fifth layer of header" />
           <img id="layer-6" className="layer" src="images/layer-6.png" alt="Sixth layer of header" />
-          <img id="layer-7" className="layer" src="images/layer-7.png" alt="Sixth layer of header" />
+          <img id="layer-7" src="images/layer-7.png" alt="Seventh layer of header" />
         </div>
       </div>
     );     
