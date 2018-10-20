@@ -1,0 +1,100 @@
+#footer {
+  position: relative;
+  font-family: Verdana, Geneva, sans-serif;
+
+  margin: 20px 0;
+  padding: 20px 0 5px;
+
+  text-align: center;
+
+  background-color: #a9bcd0;
+}
+
+#profile-picture-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#profile-picture {
+  max-width: 100%;
+}
+
+#footer-bar {
+  display: flex;
+
+  margin-bottom: 20px;
+
+  border-spacing: 5px;
+
+  justify-content: center;
+}
+
+.footer-button {
+  font-size: 1.0rem;
+
+  display: flex;
+
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+
+  text-decoration: none;
+
+  color: #ffffff;
+  border: none;
+  background-color: #131620;
+  box-shadow: 1px 2px #555555;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.footer-button:hover {
+  cursor: pointer;
+
+  background-color: #ff3600;
+  box-shadow: 1px 1px #888888;
+}
+
+#copyright {
+  font-size: 0.9rem;
+
+  margin: 0;
+}
+
+#email-box {
+  position: absolute;
+  z-index: 1000;
+
+  width: 250px;
+  height: 80px;
+  margin-top: -80px;
+  margin-left: -35px;
+
+
+  color: #ffffff;
+  background-color: #131620;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+#email-close {
+  float: right;
+  margin-right: 5px; 
+}
+
+#email-close:hover {
+  cursor: pointer;
+}
+
+#email-title {
+  text-decoration: underline;
+  margin: 15px 0 10px;
+}
+
+@media (min-width: 768px) {
+  #profile-picture-container {
+    width: 25%;
+  }
+}

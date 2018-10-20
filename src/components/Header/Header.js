@@ -52,16 +52,16 @@ class Header extends Component {
               <span className="description-first">W</span>EB <span className="description-first">D</span>EVELOPER
             </h2>
             <div id="arrow-container">
-              <img id="arrow" src="images/arrow.png" />
+              <img id="arrow" src="images/arrow.png" alt="Down Pointing Arrow" />
             </div>
           </div>
-          <img id="layer-0" className="layer" src="images/layer-0.jpg" alt="Background layer of header" />
-          <img id="layer-1" className="layer" src="images/layer-1.png" alt="First layer of header" />
-          <img id="layer-2" className="layer" src="images/layer-2.png" alt="Second layer of header" />
-          <img id="layer-3" className="layer" src="images/layer-3.png" alt="Third layer of header" />
-          <img id="layer-4" className="layer" src="images/layer-4.png" alt="Fourth layer of header" />
-          <img id="layer-5" className="layer" src="images/layer-5.png" alt="Fifth layer of header" />
-          <img id="layer-6" className="layer" src="images/layer-6.png" alt="Sixth layer of header" />
+          <img id="layer-0" className="layer" src="images/layer-0.jpg" alt="Background Layer of Header" />
+          <img id="layer-1" className="layer" src="images/layer-1.png" alt="First Layer of Header" />
+          <img id="layer-2" className="layer" src="images/layer-2.png" alt="Second Layer of Header" />
+          <img id="layer-3" className="layer" src="images/layer-3.png" alt="Third Layer of Header" />
+          <img id="layer-4" className="layer" src="images/layer-4.png" alt="Fourth Layer of Header" />
+          <img id="layer-5" className="layer" src="images/layer-5.png" alt="Fifth Layer of Header" />
+          <img id="layer-6" className="layer" src="images/layer-6.png" alt="Sixth Layer of Header" />
           <img id="layer-7" src="images/layer-7.png" alt="Seventh layer of header" />
         </div>
       </div>

@@ -1,7 +1,6 @@
 html, body {
   font-size: 100%;
 
-  height: 4000px;
   margin: 0;
 
   background-color: #131620;
@@ -77,10 +76,6 @@ html, body {
   .title-decorator {
     font-size: 1.1rem;
   }
-}
-
-@media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {

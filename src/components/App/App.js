@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Portfolio from '../Portfolio/Portfolio';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -55,6 +56,7 @@ class App extends Component {
         <Header />
         <img id="layer-8" className="layer" src="images/layer-8.png" alt="First layer of about" />
         <Portfolio />
+        <Footer />
       </div>
     );
   }
