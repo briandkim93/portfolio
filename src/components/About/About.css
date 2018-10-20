@@ -11,14 +11,18 @@
 }
 
 #about-title {
+  font-family: 'Arial Black', Gadget, sans-serif;
   font-size: 1.6rem;
 }
 
 #about-description {
+  font-size: 1.0rem;
+
   position: relative;
   z-index: 5;
-  font-size: 1.0rem;
+
   padding: 10px;
+
   background-color: rgba(0, 15, 25, 0.5);
 }
 
@@ -63,7 +67,7 @@
 }
 
 @supports (-webkit-overflow-scrolling: touch) {
-   #about {
+  #about {
     background-attachment: scroll;
-  } 
+  }
 }

@@ -1,14 +1,180 @@
-#projects {
+#projects-gradient {
+  width: 100%;
+  height: 15px;
+
+  background: linear-gradient(#444444, #f3b32b);
+}
+
+#projects-container {
   position: relative;
   z-index: 4;
 
-  padding: 25px;
+  text-align: center;
+
+  background-color: #f3b32b;
+}
+
+#projects-title {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 1.6rem;
+
+  margin: 0;
+  padding: 5%;
+
+  color: #000000;
+}
+
+#projects {
+  width: 100%;
+}
+
+.project-seperator {
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 0rem;
+  width: 90%;
+  margin: 0 auto;
 
   text-align: center;
 
-  background-color: #131620;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff
+}
+
+.project-seperator span {
+  background-color: #f3b32b;
+  padding: 0 7.5px;
 }
 
 .project {
-  
+  font-family: 'Times New Roman', Times, serif;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding: 3% 0;
+
+  color: #000000;
+}
+
+.project-image {
+  max-width: 100%;
+
+  text-align: center;
+}
+
+.project-title {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 1.6rem;
+
+  margin: 10px;
+}
+
+.project-links {
+  font-size: 1.0rem;
+  margin: 10px;
+  color: #005099;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #005099;
+}
+
+.project-links a:hover {
+  color: #003388;
+}
+
+.project-info {
+  font-size: 1.2rem;
+
+  max-width: 792px;
+  margin: 10px auto;
+
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.project-info p {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  padding: 0 2%;
+}
+
+.project-description {
+  font-weight: bold;
+}
+
+.project-detail span {
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  #projects-title, .project-title {
+    font-size: 2.0rem;
+  }
+
+  .project-links {
+    font-size: 1.2rem;
+  }
+
+  .project-info p {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  #projects-title, .project-title {
+    font-size: 2.4rem;
+  }
+
+  .project-links {
+    font-size: 1.4rem;
+  }
+
+  .project-info {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #projects-title, .project-title {
+    font-size: 2.8rem;
+  }
+
+  .project-links {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .project-image-container {
+    display: inline-block;
+
+    width: 40%;
+  }
+
+  .project-info {
+    font-size: 1.2rem;
+    width: 50%;
+    display: inline-block;
+
+    max-width: none;
+    margin-left: 5%;
+
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 1600px) {
+  #projects-title, .project-title {
+    font-size: 3.2rem;
+  }
+
+  .project-links {
+    font-size: 1.8rem;
+  }
+
+  .project-info {
+    font-size: 1.8rem;
+  }
 }

@@ -1,5 +1,4 @@
 html, body {
-  font-family: 'Arial Black', Gadget, sans-serif;
   font-size: 100%;
 
   height: 4000px;
@@ -68,4 +67,36 @@ html, body {
 
 #layer-8 {
   z-index: 1 !important;
+}
+
+.title-decorator {
+  font-size: 2.0rem;
+}
+
+@media (max-width: 300px) {
+  .title-decorator {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .title-decorator {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .title-decorator {
+    font-size: 3.0rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .title-decorator {
+    font-size: 3.5rem;
+  }
 }

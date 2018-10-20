@@ -34,7 +34,7 @@ class App extends Component {
       }, false);  
       window.addEventListener('scroll', () => {
         if (window.scrollY >= 0) {
-          layer8.style.marginTop = window.scrollY * 1.2 + 'px';
+          layer8.style.top = window.scrollY * 1.2 + 'px';
           if (about.getBoundingClientRect().bottom <= 0) {
             layer8.style.display = 'none';
           } else {
