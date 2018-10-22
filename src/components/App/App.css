@@ -68,6 +68,11 @@ html, body {
   z-index: 1 !important;
 }
 
+.section-title {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 1.6rem;
+}
+
 .title-decorator {
   font-size: 2.0rem;
 }
@@ -78,19 +83,37 @@ html, body {
   }
 }
 
+@media (min-width: 576px) {
+  .section-title {
+    font-size: 2.0rem;
+  }
+}
+
 @media (min-width: 768px) {
+  .section-title {
+    font-size: 2.4rem;
+  }
+
   .title-decorator {
     font-size: 2.5rem;
   }
 }
 
 @media (min-width: 992px) {
+  .section-title {
+    font-size: 2.8rem;
+  }
+
   .title-decorator {
     font-size: 3.0rem;
   }
 }
 
 @media (min-width: 1600px) {
+  .section-title {
+    font-size: 3.2rem;
+  }
+
   .title-decorator {
     font-size: 3.5rem;
   }

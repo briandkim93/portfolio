@@ -10,6 +10,10 @@
   background-color: #a9bcd0;
 }
 
+#footer-title {
+  color: #ffffff;
+}
+
 #profile-picture-container {
   width: 50%;
   margin: 0 auto;

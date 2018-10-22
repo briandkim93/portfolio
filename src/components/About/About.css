@@ -10,11 +10,6 @@
   background-size: cover;
 }
 
-#about-title {
-  font-family: 'Arial Black', Gadget, sans-serif;
-  font-size: 1.6rem;
-}
-
 #about-description {
   font-size: 1.0rem;
 
@@ -27,40 +22,24 @@
 }
 
 @media (min-width: 576px) {
-  #about-title {
-    font-size: 2.0rem;
-  }
-
   #about-description {
     font-size: 1.3rem;
   }
 }
 
 @media (min-width: 768px) {
-  #about-title {
-    font-size: 2.4rem;
-  }
-
   #about-description {
     font-size: 1.6rem;
   }
 }
 
 @media (min-width: 992px) {
-  #about-title {
-    font-size: 2.8rem;
-  }
-
   #about-description {
     font-size: 2.0rem;
   }
 }
 
 @media (min-width: 1600px) {
-  #about-title {
-    font-size: 3.2rem;
-  }
-
   #about-description {
     font-size: 2.5rem;
   }

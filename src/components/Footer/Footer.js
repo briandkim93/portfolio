@@ -21,6 +21,9 @@ class Footer extends Component {
   render() {
     return (
       <div id="footer">
+        <h1 id="footer-title" className="section-title">
+          <span className="title-decorator">&#x2014;&#x2014;</span> HIRE ME <span className="title-decorator">&#x2014;&#x2014;</span>
+        </h1>
         <div id="profile-picture-container">
           <img id="profile-picture" src="images/profile-picture.png" alt="Profile Picture" />
         </div>
