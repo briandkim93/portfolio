@@ -8,18 +8,18 @@
 
   text-align: center;
 
-  color: #ffffff;
-  border-bottom: 1px solid #ffffff;
+  color: #f3b32b;
+  border-bottom: 1px solid #f3b32b;
 }
 
 .project-seperator span {
   padding: 0 7.5px;
 
-  background-color: #f3b32b;
+  background-color: #002244;
 }
 
 .project {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
 
   position: relative;
 
@@ -27,7 +27,7 @@
   margin: 0 auto;
   padding: 3% 0;
 
-  color: #000000;
+  color: #ffffff;
 }
 
 .project-image {
@@ -48,17 +48,17 @@
 
   margin: 10px;
 
-  color: #005099;
+  color: #555555;
 }
 
 .project-links a {
   text-decoration: none;
 
-  color: #005099;
+  color: #aaaaaa;
 }
 
 .project-links a:hover {
-  color: #003388;
+  color: #666666;
 }
 
 .project-info {
@@ -88,6 +88,10 @@
 }
 
 @media (min-width: 576px) {
+  .project-title {
+    font-size: 2.0rem;
+  }
+
   .project-links {
     font-size: 1.2rem;
   }
@@ -98,6 +102,10 @@
 }
 
 @media (min-width: 768px) {
+  .project-title {
+    font-size: 2.4rem;
+  }
+
   .project-links {
     font-size: 1.4rem;
   }
@@ -108,6 +116,10 @@
 }
 
 @media (min-width: 992px) {
+  .project-title {
+    font-size: 2.8rem;
+  }
+
   .project-links {
     font-size: 1.6rem;
 
@@ -135,7 +147,18 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .project-info {
+    font-size: 1.5rem;
+
+  }
+}
+
 @media (min-width: 1600px) {
+  .project-title {
+    font-size: 3.2rem;
+  }
+
   .project-links {
     font-size: 1.8rem;
   }

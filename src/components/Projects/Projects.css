@@ -2,7 +2,7 @@
   width: 100%;
   height: 15px;
 
-  background: linear-gradient(#444444, #f3b32b);
+  background: linear-gradient(#001133, #002244);
 }
 
 #projects-container {
@@ -11,40 +11,16 @@
 
   text-align: center;
 
-  background-color: #f3b32b;
+  background-color: #002244;
 }
 
 #projects-title {
   margin: 0;
   padding: 5%;
 
-  color: #000000;
+  color: #ffffff;
 }
 
 #projects {
   width: 100%;
-}
-
-@media (min-width: 576px) {
-  .project-title {
-    font-size: 2.0rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .project-title {
-    font-size: 2.4rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .project-title {
-    font-size: 2.8rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .project-title {
-    font-size: 3.2rem;
-  }
 }
