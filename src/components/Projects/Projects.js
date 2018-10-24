@@ -7,9 +7,8 @@ class Projects extends Component {
   render() {
     return (
       <div id="projects-container">
-        <div id="projects-gradient" />
         <h1 id="projects-title" className="section-title">
-          <span className="title-decorator">&#x2014;&#x2014;</span> PROJECTS <span className="title-decorator">&#x2014;&#x2014;</span>
+          <span className="title-decorator">&#x2014;</span> PROJECTS <span className="title-decorator">&#x2014;</span>
         </h1>
         <div id="projects">
           <Project 

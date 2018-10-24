@@ -7,10 +7,10 @@ class Project extends Component {
     return (
       <div>
         <div>
-          <div className="project-seperator">
-            <span>{this.props.id}</span>
-          </div>
           <div className="project">
+            <div className="project-identifier">
+              <span>- {this.props.id} -</span>
+            </div>
             <h1 className="project-title">
               {this.props.title}
             </h1>        

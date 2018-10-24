@@ -65,7 +65,9 @@ html, body {
 }
 
 #layer-8 {
+  position: fixed;
   z-index: 1 !important;
+  top: 0;
 }
 
 .section-title {

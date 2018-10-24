@@ -1,9 +1,10 @@
 #footer {
-  position: relative;
   font-family: Verdana, Geneva, sans-serif;
 
+  position: relative;
+
   margin: 20px 0;
-  padding: 20px 0 5px;
+  padding: 30px 0 5px;
 
   text-align: center;
 
@@ -46,12 +47,12 @@
 
   color: #ffffff;
   border: none;
+  border-radius: 3px;
   background-color: #131620;
   box-shadow: 1px 2px #555555;
 
   align-items: center;
   justify-content: center;
-  border-radius: 3px;
 }
 
 .footer-button:hover {
@@ -76,16 +77,16 @@
   margin-top: -80px;
   margin-left: -35px;
 
-
   color: #ffffff;
-  background-color: #131620;
   border: 1px solid #555555;
   border-radius: 5px;
+  background-color: #131620;
 }
 
 #email-close {
   float: right;
-  margin-right: 5px; 
+
+  margin-right: 5px;
 }
 
 #email-close:hover {
@@ -93,8 +94,9 @@
 }
 
 #email-title {
-  text-decoration: underline;
   margin: 15px 0 10px;
+
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,6 @@
 #header {
   font-family: 'Arial Black', Gadget, sans-serif;
+
   position: relative;
 
   overflow: hidden;
@@ -8,7 +9,7 @@
 }
 
 #header-title {
-  z-index: 3 !important;
+  z-index: 5 !important;
   top: 30%;
   left: 5%;
 
@@ -67,7 +68,7 @@
 
 .layer {
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   top: 0;
   left: 0;
 
@@ -82,11 +83,12 @@
 
 #layer-7 {
   position: absolute;
+  z-index: 6;
+  bottom: -1px;
+
   display: block;
 
   width: 100%;
-  z-index: 4;
-  bottom: -1px;
 }
 
 @media (min-width: 576px) {

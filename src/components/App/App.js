@@ -23,6 +23,7 @@ class App extends Component {
         window.scrollTo(0, 0);
       }, 1000);
     }, false);
+    const header = document.querySelector('#header');
     const about = document.querySelector('#about');
     const layer8 = document.querySelector('#layer-8');
     layer8.addEventListener('load', () => {
@@ -34,8 +35,8 @@ class App extends Component {
         }
       }, false);  
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 0) {
-          layer8.style.top = window.scrollY * 1.2 + 'px';
+        if (window.scrollY >= header.offsetHeight / 2) {
+          layer8.style.top = window.scrollY * 0.18 + 'px';
           if (about.getBoundingClientRect().bottom <= 0) {
             layer8.style.display = 'none';
           } else {

@@ -1,33 +1,30 @@
-.project-seperator {
-  font-size: 0.9rem;
-  font-weight: bold;
-  line-height: 0rem;
-
+.project-identifier {
   width: 90%;
   margin: 0 auto;
 
   text-align: center;
-
-  color: #f3b32b;
-  border-bottom: 1px solid #f3b32b;
 }
 
-.project-seperator span {
+.project-identifier span {
+  font-size: 1.5rem;
+  font-weight: bold;
+
   padding: 0 7.5px;
 
-  background-color: #002244;
+  color: #f3b32b;
 }
 
 .project {
-  font-family: 'Arial', Times, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 
   position: relative;
 
   width: 90%;
-  margin: 0 auto;
-  padding: 3% 0;
+  margin: 10px auto 50px;
+  padding: 5%;
 
   color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .project-image {
@@ -37,7 +34,6 @@
 }
 
 .project-title {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: 1.6rem;
 
   margin: 10px;
@@ -48,27 +44,27 @@
 
   margin: 10px;
 
-  color: #555555;
+  color: #f3b32b;
 }
 
 .project-links a {
   text-decoration: none;
 
-  color: #aaaaaa;
+  color: #f3b32b;
 }
 
 .project-links a:hover {
-  color: #666666;
+  color: #ee9000;
 }
 
 .project-info {
+  font-family: 'Arial', Times, serif;
   font-size: 1.2rem;
 
   max-width: 792px;
   margin: 10px auto;
 
   border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
 }
 
 .project-info p {
@@ -80,15 +76,17 @@
   vertical-align: top;
 }
 
-.project-description {
-  font-weight: bold;
-}
-
 .project-detail span {
   font-weight: bold;
+
+  color: #f3b32b;
 }
 
 @media (min-width: 576px) {
+  .project-identifier span {
+    font-size: 2.0rem;
+  }
+
   .project-title {
     font-size: 2.0rem;
   }
@@ -143,13 +141,14 @@
     margin-left: 5%;
 
     vertical-align: top;
+
+    border-bottom: 2px solid #000000;
   }
 }
 
 @media (min-width: 1200px) {
   .project-info {
     font-size: 1.5rem;
-
   }
 }
 
